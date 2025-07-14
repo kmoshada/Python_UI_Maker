@@ -1,10 +1,10 @@
-# User Manual: App Builder Framework
+# User Manual: App Builder Framework (Version 01)
 
 ## 1. Overview
 
 Welcome to the App Builder Framework!
 
-This project is a foundational framework for a web-based, visual application builder. It is designed to be extended and built upon. In its current state, it consists of a Python/FastAPI backend and a React frontend, containerized with Docker.
+This project is a foundational framework for a web-based, visual application builder(For now, Kivy Library only). It is designed to be extended and built upon. In its current state, it consists of a Python/FastAPI backend and a React frontend, containerized with Docker.
 
 The primary feature is the ability to take a JSON-based description of UI components and generate a runnable Python script for a Kivy mobile application.
 
@@ -21,7 +21,7 @@ The primary feature is the ability to take a JSON-based description of UI compon
 Before you can run the application, you **must** have the following software installed on your system:
 
 - **Docker:** The application is designed to run in containers. You need a working installation of Docker.
-- **Docker Compose:** This tool is used to orchestrate the multi-container application. (Note: Newer versions of Docker integrate `compose` as a subcommand: `docker compose`).
+- **Docker Compose:** This tool is used to orchestrate multi-container applications. (Note: Newer versions of Docker integrate `compose` as a subcommand: `docker compose`).
 
 ---
 
