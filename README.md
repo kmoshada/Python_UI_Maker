@@ -32,7 +32,7 @@ Follow these steps to get the application running:
 1.  **Navigate to the Project Directory:**
     Open a terminal and change into the root directory of the project.
     ```bash
-    cd /home/km/development/Fram/app-builder-framework
+    cd /<Project Directory>
     ```
 
 2.  **Build and Start the Containers:**
